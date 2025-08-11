@@ -1,0 +1,24 @@
+{
+  "name": "gif-nest",
+  "version": "1.0.0",
+  "description": "A simple Telegram bot for managing your GIFs",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirezabaratian/gif-nest.git"
+  },
+  "author": "Alireza Baratian",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/alirezabaratian/gif-nest/issues"
+  },
+  "homepage": "https://github.com/alirezabaratian/gif-nest#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "mongoose": "^6.13.8",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
